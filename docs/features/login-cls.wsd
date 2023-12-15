@@ -1,0 +1,7 @@
+@startuml
+class User
+
+Gamer - User : is >
+User *- Session : have 1 >
+
+@enduml
